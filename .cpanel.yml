@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/levelsquare/repositories/veevalidate-example1
-    - /bin/cp -r * $DEPLOYPATH #copy all from root
+    - export DEPLOYPATH=/home/levelsquare/repositories/veevalidate-example1/
+    - /bin/cp -a * $DEPLOYPATH
