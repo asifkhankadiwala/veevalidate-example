@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/levelsquare/repositories/veevalidate-example1/
-    - /bin/cp -a * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
